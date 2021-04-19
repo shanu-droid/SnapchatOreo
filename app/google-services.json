@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "976301718513",
+    "firebase_url": "https://snapchatoreo-d4e6c.firebaseio.com",
+    "project_id": "snapchatoreo-d4e6c",
+    "storage_bucket": "snapchatoreo-d4e6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976301718513:android:d0b2fb319873e4e4c32250",
+        "android_client_info": {
+          "package_name": "com.droid.snapchatoreo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976301718513-jmuoasah1p9o00rqirukvc0ibdmdo3og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjfl-ZUIONqZdp3EqcF9_Ednxy3ThUfog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976301718513-jmuoasah1p9o00rqirukvc0ibdmdo3og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

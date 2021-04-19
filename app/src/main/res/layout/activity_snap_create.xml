@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D2CD"
+    tools:context=".SnapCreateActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="62dp"
+        android:background="#FA3B3B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/createSnapImageButton"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="122dp"
+        android:background="@android:color/holo_red_light"
+        android:onClick="chooseImageClicked"
+        android:text="Create Snap Image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="301dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="Message"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createSnapImageButton" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/holo_red_light"
+        android:onClick="onNextClicked"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageEditText"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
